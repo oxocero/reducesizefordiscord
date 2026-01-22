@@ -1,4 +1,4 @@
-"# reducesizefordiscord
+# reducesizefordiscord
 
 A Python script that re-encodes videos to fit under Discord's file size limit (10 MB for free users, 25/50 MB for Nitro) while maximising quality.
 
@@ -86,4 +86,3 @@ python reducesizefordiscord.py input.mp4 output.mp4 --no-auto-scale
 3. Determines if downscaling would improve quality (based on available bitrate)
 4. Runs a two-pass encode: first pass analyses, second pass encodes
 5. Outputs a stream-friendly MP4 with `faststart` enabled
-" 
